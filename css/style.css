@@ -1,0 +1,392 @@
+
+
+@font-face{
+    font-family: hope;
+    src: url(./https://framerusercontent.com/assets/1ZFS7N918ojhhd0nQWdj3jz4w.woff2);
+}
+.logo1{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    width: 100%;
+}
+.logo{
+    height: 30px;
+    width: 15%;
+    padding-top: 20px;
+    padding-left: 70px;
+    gap: 100px;
+}
+.link a{
+    color: white;
+    
+    text-decoration: none;
+}
+
+
+.link{
+    padding-top: 30px;
+    gap: 30px;
+    width: 45%;
+    display: flex;
+
+   
+  
+
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginto{
+    width: 170%;
+    height: 25px;
+    color: white;
+    background-color: #f9814d;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+}
+
+.subm{
+    margin-top: 10px;
+    height: 40px;
+    width: 20%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+}
+.error{
+    color: red;
+}
+
+form{
+    border: .5px solid #DDD;
+    padding: 20px;
+    border-radius: 5px;
+    width: 40%;
+    height: 400px;
+    padding-top: 30px;
+}
+input{
+    margin-bottom: 10px;
+    outline: none;
+    padding: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: 10px;
+    border-right: .1px solid #000;
+    width: 50%;
+    margin-left: 20PX;
+    border-bottom: .1px solid #000;
+}
+.banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 70px 10px 70px;
+    height: 450px;
+    display: flex;
+    font-family: hope;
+    background-image: url(https://framerusercontent.com/images/pmes3T0827hLQEcRMFbvMeYjNlk.jpg?scale-down-to=2048);
+}
+.bann-1{
+    height: 450px;
+    width: 100%;
+    font-family: hope;
+    font-size: 30px;
+}
+.bann-2{
+    height: 450px;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://framerusercontent.com/images/SSpRU1gEzIB6qwXNExHPQZIsMM.png);
+
+}
+
+.bann-1 p{
+    font-size: 25px;
+    font-family: hope;
+}
+
+.jas{
+    height: 50px;
+    width: 20%;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f9814d;
+    background-image: url(https://framerusercontent.com/images/RCMFlnl02KCW03yNkktUUkNvyFQ.png);
+   
+}
+
+.efcc{
+    height: 70px;
+    width: 100%;
+    padding-top: 1;
+    font-family: hope;
+    display: flex;
+    text-align: center;
+    background-color: white;
+}
+.dive-1{
+    height:60px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../image/all.png);
+
+}
+
+.dive-2{
+    height:60px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../image/all.png);
+
+}
+
+
+
+.dive-3{
+    height:60px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://framerusercontent.com/images/RCMFlnl02KCW03yNkktUUkNvyFQ.png);
+
+}
+.saa{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    padding-top: 40px;
+} 
+
+.last{
+    height: 400px;
+    width: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://framerusercontent.com/images/SSpRU1gEzIB6qwXNExHPQZIsMM.png);
+}
+/* 
+.sat{
+    height: 100px;
+    width: 10px;
+    background-color: blue; */
+
+
+.number{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.number-1{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+   
+    font-size: 15px;
+    font-family: hope;
+    background-color: white;
+}
+
+.number-1 h1{
+    width: 25%;
+    height: 100px;
+     padding-top: 120px;
+     padding-left: 450px;
+}
+
+.number-2{
+    width: 100%;
+    height: 350px;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://framerusercontent.com/images/pmes3T0827hLQEcRMFbvMeYjNlk.jpg?scale-down-to=2048);
+    
+}
+
+.num-1{
+    height:350px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 5%; */
+    background-color: antiquewhite;
+    background-image: url(../image/small2.jpg);
+
+}
+.num-2{
+    height:350px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 5%; */
+    background-color: aqua;
+    background-image: url(../image/small1.jpg);
+
+}
+.num-3{
+    height:350px;
+    width: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 5%; */
+
+    background-image: url(../image/small.jpg);
+
+}
+.num-3 img{
+    border-radius: 10%;
+}
+
+.num-4{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    gap: 20px;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color:white ;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.num-a{
+    height: 80px;
+    width: 20%;
+    font-family: hope;
+    padding-left: 50px;
+}
+.num-b{
+    height: 80px;
+    width: 20%;
+    font-family: hope;
+}
+.num-c{
+    height: 80px;
+    width: 30%;
+    font-family: hope;
+}
+
+
+.read{
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    font-family: hope;
+
+}
+.mor{
+    color: white;
+    height: 30px;
+    width: 10%;
+    font-family: hope;
+    margin-left: 600px;
+    border-radius: 5%;
+    padding-top: 10px;
+    background-color: #f9814d;
+}
+.foot{
+    height: 400px;
+    width: 100%;
+    gap: 10px;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    background-color: #000;
+}
+
+.foo-1{
+    height: 300px;
+    width: 40%;
+    margin-left: 40px;
+    background-image: url("./https://framerusercontent.com/images/EqQNNITtxjX4mh8GcvSnQidsEIg.svg");
+}
+
+.foo-2{
+    height: 300px;
+    width: 15%;
+    font-family: hope;
+}
+
+.foo-3{
+    height: 300px;
+    width: 15%;
+    font-family: hope;
+}
+
+.foo-4{
+    height: 300px;
+    width: 15%;
+    font-family: hope;
+}
+
+.foo-5{
+    height: 300px;
+    width: 15%;
+    font-family: hope;
+    margin-right: 40px;
+}
+
+.foo-1 IMG{
+    height: 90PX;
+    width: 70%;
+}
+
+.COPY{
+    height: 90PX;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.COPY-1{
+    height: 90PX;
+    width: 20%;
+    margin-left: 40px;
+    
+}
+
+.COPY-2{
+    height: 90PX;
+    width: 20%;
+    display: flex;
+    font-family: hope;
+    padding-top: 20px;
+    margin-right: 50px;
+    
+}
+.COPY-2 img{
+    height: 30px;
+    width: 100%;
+    border-radius: 5%;
+}
